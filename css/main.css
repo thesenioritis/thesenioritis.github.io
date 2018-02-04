@@ -11,6 +11,7 @@ body {
   padding-bottom: 40px;
 }
 
+/* Proxima Nova */
 @font-face {
   src:url("../fonts/Proxima Nova/proximanova-bold-webfont.ttf");
   font-family: "Proxima Nova"; font-weight: 700;
@@ -29,6 +30,69 @@ body {
 @font-face {
   src:url("../fonts/Proxima Nova/proximanova-regular-webfont.ttf");
   font-family: "Proxima Nova"; font-weight: 400;
+}
+
+/* Proxima Nova Soft */
+@font-face {
+  src:url("../fonts/Proxima Nova Soft/proxima-nova-soft-semibold.otf");
+  font-family: "Proxima Nova Soft"; font-weight: 400;
+}
+
+@font-face {
+  src:url("../fonts/Proxima Nova Soft/ProximaNovaSoft-Bold.otf");
+  font-family: "Proxima Nova Soft"; font-weight: 700;
+}
+
+/* Function Pro */
+@font-face {
+  src:url("../fonts/Proxima Nova/Function-Bold.ttf");
+  font-family: "Proxima Nova"; font-weight: 700;
+}
+
+@font-face {
+  src:url("../fonts/Function Pro/Function-Medium.ttf");
+  font-family: "Function Pro"; font-weight: 500;
+}
+
+@font-face {
+  src:url("../fonts/Function Pro/Function-Light.ttf");
+  font-family: "Function Pro"; font-weight: 300;
+}
+
+@font-face {
+  src:url("../fonts/Function Pro/Function-Book.ttf");
+  font-family: "Function Pro"; font-weight: 400;
+}
+
+/* Playfair Display */
+@font-face {
+  src:url("../fonts/Playfair Display/PlayfairDisplay-Black.ttf");
+  font-family: "Playfair Display"; font-weight: 900;
+}
+
+@font-face {
+  src:url("../fonts/Playfair Display/PlayfairDisplay-BlackItalic.otf");
+  font-family: "Playfair Display"; font-weight: 900; font-style: italic;
+}
+
+@font-face {
+  src:url("../fonts/Playfair Display/PlayfairDisplay-Bold.otf");
+  font-family: "Playfair Display"; font-weight: 700;
+}
+
+@font-face {
+  src:url("../fonts/Playfair Display/PlayfairDisplay-BoldItalic.otf");
+  font-family: "Playfair Display"; font-weight: 700; font-style: italic;
+}
+
+@font-face {
+  src:url("../fonts/Playfair Display/PlayfairDisplay-Regular.ttf");
+  font-family: "Playfair Display"; font-weight: 400;
+}
+
+@font-face {
+  src:url("../fonts/Playfair Display/PlayfairDisplay-Italic.otf");
+  font-family: "Playfair Display"; font-weight: 400; font-style: italic;
 }
 
 ::-moz-selection {
@@ -100,7 +164,7 @@ a:hover {
 .quote {
   margin-top: 20px;
   text-align:center;
-  font-family: "SFMoMA";
+  font-family: "Proxima Nova";
   color: #999;
 }
 
@@ -135,7 +199,7 @@ a:hover {
 }
 
 #mainTitle {
-  font-family: "SFMoMA", "San Francisco";
+  font-family: "Proxima Nova";
   font-weight: 300;
   color:#333;
   line-height: 110%;
@@ -147,9 +211,6 @@ a:hover {
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
   user-select: none;
-  /*margin-left: 15px;*/
-  /*margin-right: 15px;*/
-
 }
 
 #mainDescription {
@@ -223,7 +284,7 @@ hr#starter {
 }
 
 #header .navLinks a {
-  font-family: "SFMoMA", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   margin-right: 25px;
   font-size: 14pt;
@@ -231,12 +292,14 @@ hr#starter {
 }
 
 #header h1 {
-  font-family: "Proxima Nova";
+  font-family: "Proxima Nova Soft";
   font-weight: bold;
   color: black;
-  font-size: 22pt;
+  font-size: 42pt;
   text-transform: none;
   text-align: center;
+  line-height: 40px;
+  text-transform: lowercase;
 }
 
 #header a {
@@ -259,6 +322,12 @@ hr#starter {
   text-align: center;
 }
 
+#header #logo {
+  background: none;
+  border: 0;
+  height: 100px;
+}
+
 p {
   text-rendering: optimizeLegibility;
   hyphens: auto;
@@ -279,25 +348,25 @@ p.lead {
 
 .articleTitle {
   font-size: 18pt;
-  font-family:  'SFMoMA', 'Proxima Nova';
+  font-family:  'Proxima Nova', sans-serif;
 }
 
 h2 {
-  font-family: "SFMoMA", "San Francisco";
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 600;
   line-height: 120%;
   border-bottom: 1px solid rgba(37, 36, 37, 0.1);
 }
 
 h3 {
-  font-family: "SFMoMA", "Proxima Nova";
+  font-family: "Proxima Nova", sans-serif;
   border-bottom: 1px solid rgba(37, 36, 37, 0.1);
   line-height: 120%;
 
 }
 
 .date {
-  font-family:  "Franklin Book", "SFMoMA";
+  font-family:  "Proxima Nova", sans-serif;
   font-weight: 400;
   color: rgba(37, 36, 37, 0.7);
   font-size: 12pt;
@@ -331,7 +400,7 @@ input:focus {
   display:block;
   text-align:left;
   font-size: 14pt;
-  font-family: "SFMoMA", "Proxima Nova", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
 }
 
@@ -342,14 +411,14 @@ input:focus {
 
 .description {
   margin-right: 10px;
-  font-family: "SFMoMA", "Franklin Book", "Proxima Nova", "Helvetica", sans-serif;
+  font-family: "Proxima Nova", "Helvetica", sans-serif;
   font-weight: 400;
   display:block;
 }
 
 .articleBody {
   font-size: 13pt;
-  font-family: "Franklin Book", "Proxima Nova", "Helvetica", sans-serif;
+  font-family: "Proxima Nova", "Helvetica", sans-serif;
   line-height: 1.8;
   color: #181f21;
   text-rendering: optimizeLegibility;
@@ -391,7 +460,7 @@ input:focus {
 #headline {
   color: #333;
   font-size: 23pt;
-  font-family: 'SFMoMA', 'Proxima Nova';
+  font-family: 'Proxima Nova';
   font-weight:700;
   line-height: 110%;
   margin-top: 10px;
@@ -537,7 +606,7 @@ blockquote {
 blockquote quotee {
   font-size: 11pt;
   font-weight: 600;
-  font-family: "SFMoMA", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   display:block;
   font-style:normal;
 }
