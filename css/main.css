@@ -2,9 +2,9 @@
 /*! normalize.css v5.0.0 */ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:'Menlo',monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:0;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 body {
@@ -32,22 +32,22 @@ body {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 audio,
@@ -56,434 +56,440 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
 
- footer {
-   font-family: "Menlo";
-   font-size: 14pt;
-   padding-top: 20px;
-   padding-bottom: 20px;
- }
+footer {
+  font-family: "Menlo";
+  font-size: 14pt;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
- a {
-   color:black;
-   text-decoration: none;
- }
+a {
+  color:black;
+  text-decoration: none;
+}
 
- a:visited {
-   color:black;
- }
+a:visited {
+  color:black;
+}
 
- a:hover {
-   text-decoration: underline;
- }
+a:hover {
+  text-decoration: underline;
+}
 
- .quote {
-   margin-top: 20px;
-   text-align:center;
-   font-family: "SFMoMA";
-   color: #999;
- }
+.quote {
+  margin-top: 20px;
+  text-align:center;
+  font-family: "SFMoMA";
+  color: #999;
+}
 
- .wallet {
-   text-align:center;
-   color: #999;
-   font-family: "Menlo";
-   margin-top: 40px;
-   font-size: 9pt;
- }
+.wallet {
+  text-align:center;
+  color: #999;
+  font-family: "Menlo";
+  margin-top: 40px;
+  font-size: 9pt;
+}
 
- .lavaLamp {
-     height: 3px;
-     width: 100%;
-     background-color:#333;
-     /*animation: lavalamp 5s infinite;*/
-     position:absolute;
-     top:0;
- }
+.lavaLamp {
+  height: 3px;
+  width: 100%;
+  background-color:#333;
+  /*animation: lavalamp 5s infinite;*/
+  position:absolute;
+  top:0;
+}
 
- @keyframes lavalamp {
-   0% {
-     background-color: #c0392b;
-   }
-   100% {
-     background-color: #8e44ad;
-   }
- }
+@keyframes lavalamp {
+  0% {
+    background-color: #c0392b;
+  }
+  100% {
+    background-color: #8e44ad;
+  }
+}
 
- *:focus {
-     outline: none;
- }
+*:focus {
+  outline: none;
+}
 
- #mainTitle {
-   font-family: "SFMoMA", "San Francisco";
-   font-weight: 300;
-   color:#333;
-   line-height: 110%;
-   text-align:center;
-   font-size: 35pt;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   -webkit-user-select: none;  /* Chrome all / Safari all */
-   -moz-user-select: none;     /* Firefox all */
-   -ms-user-select: none;      /* IE 10+ */
-   user-select: none;
-   /*margin-left: 15px;*/
-   /*margin-right: 15px;*/
+#mainTitle {
+  font-family: "SFMoMA", "San Francisco";
+  font-weight: 300;
+  color:#333;
+  line-height: 110%;
+  text-align:center;
+  font-size: 35pt;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
+  /*margin-left: 15px;*/
+  /*margin-right: 15px;*/
 
- }
+}
 
- #mainDescription {
-   font-family: 'Proxima Nova';
-   font-weight: 400;
-   color: #333;
-   text-align: center;
-   font-size: 12pt;
-   margin-top: 10px;
-   /*margin-left: 15px;*/
-   /*margin-right: 15px;*/
- }
+#mainDescription {
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+  font-size: 12pt;
+  margin-top: 10px;
+  /*margin-left: 15px;*/
+  /*margin-right: 15px;*/
+}
 
- #mainTitle:hover {
-   cursor:pointer;
- }
+#mainTitle:hover {
+  cursor:pointer;
+}
 
- .newsIcons {
-   display: flex;
-   flex-direction: row;
-   flex-wrap:nowrap;
-   margin-bottom: 10px;
-   align-items: stretch;
- }
+.newsIcons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  margin-bottom: 10px;
+  align-items: stretch;
+}
 
- .newsInfoIcon {
-   border: 0;
-   width: 100px;
-   height: auto;
-   flex-grow: 1;
-   flex-shrink: 1;
-   flex-basis: auto;
-   background-color: white;
-   filter: grayscale(100%);
-   -webkit-filter: grayscale(100%);
-   -webkit-transition: all 0.1s linear;
-   -moz-transition: all 0.1s linear;
-   -o-transition: all 0.1s linear;
-   -ms-transition: all 0.1s linear;
- }
+.newsInfoIcon {
+  border: 0;
+  width: 100px;
+  height: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: white;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+}
 
- .newsInfoIcon:hover {
-   filter: grayscale(0%);
-   -webkit-filter: grayscale(0%);
- }
+.newsInfoIcon:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
 
- /*.firstcharacter:-webkit-first-child:-webkit-first-letter { float: left; color: #903; font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: Georgia; }*/
+/*.firstcharacter:-webkit-first-child:-webkit-first-letter { float: left; color: #903; font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: Georgia; }*/
 
- .info {
-   text-transform:uppercase;
- }
+.info {
+  text-transform:uppercase;
+}
 
- .content {
-   margin-top: -20px;
- }
+.content {
+  margin-top: -20px;
+}
 
- hr#starter {
-   /*display: none;*/
-   padding: 0;
-   margin: 0;
-   height: 20px;
-   border: 0;
-   background-image: url('/img/binding_dark_@2X.png');
-   background-repeat: repeat;
- }
+hr#starter {
+  /*display: none;*/
+  padding: 0;
+  margin: 0;
+  height: 20px;
+  border: 0;
+  background-image: url('/img/binding_dark_@2X.png');
+  background-repeat: repeat;
+}
 
- #header {
-   color: #555;
-   padding-top: 40px;
-   padding-bottom: 10px;
- }
+#header {
+  color: #555;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
 
- #header .navLinks a {
-   font-family: "SFMoMA", sans-serif;
-   font-weight: 700;
-   margin-right: 25px;
-   font-size: 14pt;
-   text-transform: lowercase;
- }
+#header .navLinks a {
+  font-family: "SFMoMA", sans-serif;
+  font-weight: 700;
+  margin-right: 25px;
+  font-size: 14pt;
+  text-transform: lowercase;
+}
 
- #header h1 {
-   font-family: "SFMoMA", "San Francisco";
-   font-weight: bold;
-   color: black;
-   font-size: 22pt;
-   text-transform: none;
- }
+#header h1 {
+  font-family: "Proxima Nova";
+  font-weight: bold;
+  color: black;
+  font-size: 22pt;
+  text-transform: none;
+  text-align: center;
+}
 
- #header a {
-   color: #0f73aa;
-   border-bottom: 1px dotted #0f73aa;
-   -webkit-transition: all 0.1s linear;
-   -moz-transition: all 0.1s linear;
-   -o-transition: all 0.1s linear;
-   -ms-transition: all 0.1s linear;
- }
+#header a {
+  color: #0f73aa;
+  border-bottom: 1px dotted #0f73aa;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+}
 
- #header a:hover {
-   color:#463c78;
-   border-bottom: 1px solid #463c78;
-   text-decoration: none;
- }
+#header a:hover {
+  color:#463c78;
+  border-bottom: 1px solid #463c78;
+  text-decoration: none;
+}
 
- p {
-   text-rendering: optimizeLegibility;
-   hyphens: auto;
-   -webkit-hyphens: auto;
-   -moz-hyphens: auto;
-   -ms-hyphens: auto;
- }
+#header p.lead {
+  font-size: 12pt;
+  text-align: center;
+}
 
- p.lead {
-     font-family: "Franklin Book", "SFMoMA", sans-serif;
-     font-size: 13pt;
-     line-height: 160%;
- }
+p {
+  text-rendering: optimizeLegibility;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+}
 
- .twitter-timeline {
-   width: 100%;
- }
+p.lead {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 13pt;
+  line-height: 160%;
+}
 
- .articleTitle {
-   font-size: 18pt;
-   font-family:  'SFMoMA', 'Proxima Nova';
- }
+.twitter-timeline {
+  width: 100%;
+}
 
- h2 {
-   font-family: "SFMoMA", "San Francisco";
-   font-weight: 600;
-   line-height: 120%;
-   border-bottom: 1px solid rgba(37, 36, 37, 0.1);
- }
+.articleTitle {
+  font-size: 18pt;
+  font-family:  'SFMoMA', 'Proxima Nova';
+}
 
- h3 {
-   font-family: "SFMoMA", "Proxima Nova";
-   border-bottom: 1px solid rgba(37, 36, 37, 0.1);
-   line-height: 120%;
+h2 {
+  font-family: "SFMoMA", "San Francisco";
+  font-weight: 600;
+  line-height: 120%;
+  border-bottom: 1px solid rgba(37, 36, 37, 0.1);
+}
 
- }
+h3 {
+  font-family: "SFMoMA", "Proxima Nova";
+  border-bottom: 1px solid rgba(37, 36, 37, 0.1);
+  line-height: 120%;
 
- .date {
-   font-family:  "Franklin Book", "SFMoMA";
-   font-weight: 400;
-   color: rgba(37, 36, 37, 0.7);
-   font-size: 12pt;
-   margin-bottom: 10px;
-   display:block;
- }
+}
 
- .whole .date {
-   margin-left: 10px;
-   margin-right: 10px;
-   font-size: 14pt;
- }
+.date {
+  font-family:  "Franklin Book", "SFMoMA";
+  font-weight: 400;
+  color: rgba(37, 36, 37, 0.7);
+  font-size: 12pt;
+  margin-bottom: 10px;
+  display:block;
+}
 
- .whole a {
-   font-weight: bold;
-   margin-left: 10px;
-   margin-right: 10px;
- }
+.whole .date {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14pt;
+}
 
- input:focus {
-   outline:none;
-   outline-style:none;
- }
+.whole a {
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
- .story {
-     margin-bottom: 15px;
- }
+input:focus {
+  outline:none;
+  outline-style:none;
+}
 
- .story a {
-   color: #333;
-   display:block;
-   text-align:left;
-   font-size: 14pt;
-   font-family: "SFMoMA", "Proxima Nova", sans-serif;
-   font-weight: 700;
- }
+.story {
+  margin-bottom: 15px;
+}
 
- #goHome:hover {
-   cursor:pointer;
- }
+.story a {
+  color: #333;
+  display:block;
+  text-align:left;
+  font-size: 14pt;
+  font-family: "SFMoMA", "Proxima Nova", sans-serif;
+  font-weight: 700;
+}
+
+#goHome:hover {
+  cursor:pointer;
+}
 
 
- .description {
-   margin-right: 10px;
-   font-family: "SFMoMA", "Franklin Book", "Proxima Nova", "Helvetica", sans-serif;
-   font-weight: 400;
-   display:block;
- }
+.description {
+  margin-right: 10px;
+  font-family: "SFMoMA", "Franklin Book", "Proxima Nova", "Helvetica", sans-serif;
+  font-weight: 400;
+  display:block;
+}
 
- .articleBody {
-   font-size: 13pt;
-   font-family: "Franklin Book", "Proxima Nova", "Helvetica", sans-serif;
-   line-height: 1.8;
-   color: #181f21;
-   text-rendering: optimizeLegibility;
-   hyphens: auto;
-   -webkit-hyphens: auto;
-   -moz-hyphens: auto;
-   -ms-hyphens: auto;
- }
+.articleBody {
+  font-size: 13pt;
+  font-family: "Franklin Book", "Proxima Nova", "Helvetica", sans-serif;
+  line-height: 1.8;
+  color: #181f21;
+  text-rendering: optimizeLegibility;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+}
 
- .articleBody a {
-   font-weight:normal;
-   margin:0;
-   color: #0f73aa;
- }
+.articleBody a {
+  font-weight:normal;
+  margin:0;
+  color: #0f73aa;
+}
 
- .articleBody h2, h3, h4 {
-   line-height: 110%;
-   margin-bottom:-10px;
-   padding:0;
- }
+.articleBody h2, h3, h4 {
+  line-height: 110%;
+  margin-bottom:-10px;
+  padding:0;
+}
 
- .mainIntro {
-   text-align: center;
- }
+.mainIntro {
+  text-align: center;
+}
 
- .mainIntro .date {
-   font-size: 13pt;
-   font-family: "Proxima Nova";
-   font-weight: 100;
-   border-top: 1px solid rgba(33, 33, 33, 0.1);
-   padding-top: 7px;
- }
+.mainIntro .date {
+  font-size: 13pt;
+  font-family: "Proxima Nova";
+  font-weight: 100;
+  border-top: 1px solid rgba(33, 33, 33, 0.1);
+  padding-top: 7px;
+}
 
- .mainIntro a {
-   margin:0;
-   font-weight: normal;
- }
+.mainIntro a {
+  margin:0;
+  font-weight: normal;
+}
 
- #headline {
-   color: #333;
-   font-size: 23pt;
-   font-family: 'SFMoMA', 'Proxima Nova';
-   font-weight:700;
-   line-height: 110%;
-   margin-top: 10px;
- }
+#headline {
+  color: #333;
+  font-size: 23pt;
+  font-family: 'SFMoMA', 'Proxima Nova';
+  font-weight:700;
+  line-height: 110%;
+  margin-top: 10px;
+}
 
- .bannerAd {
-   display:block;
-   margin-top: 10px;
-   border: 1px dashed black;
- }
+.bannerAd {
+  display:block;
+  margin-top: 10px;
+  border: 1px dashed black;
+}
 
- .blogArea {
-   margin-top: 10px!important;
- }
+.blogArea {
+  margin-top: 10px!important;
+}
 
- .contentArea {
-   margin-top: -30px;
- }
+.contentArea {
+  margin-top: -30px;
+}
 
- img {
-     display: block;
-     margin: auto;
- }
+img {
+  display: block;
+  margin: auto;
+}
 
 
 
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+Helper classes
+========================================================================== */
 
 /*
- * Hide visually and from screen readers
- */
+* Hide visually and from screen readers
+*/
 
 .hidden {
-    display: none !important;
+  display: none !important;
 }
 
 /*
- * Hide only visually, but have it available for screen readers:
- * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- */
+* Hide only visually, but have it available for screen readers:
+* http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*/
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 /*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
+* Extends the .visuallyhidden class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
 
 /*
- * Hide visually and from screen readers, but maintain layout
- */
+* Hide visually and from screen readers, but maintain layout
+*/
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 img {
@@ -614,91 +620,91 @@ lead {
 }
 
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+  /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
+Print styles.
+Inlined to avoid the additional HTTP request:
+http://www.phpied.com/delay-loading-your-print-css/
+========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+  *,
+  *:before,
+  *:after,
+  *:first-letter,
+  *:first-line {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster:
+    http://www.sanbeiji.com/archives/953 */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
 
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
+  /*
+  * Don't show links that are fragment identifiers,
+  * or use the `javascript:` pseudo protocol
+  */
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
 
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
 
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
+  /*
+  * Printing Tables:
+  * http://css-discuss.incutio.com/wiki/Printing_Tables
+  */
 
-    thead {
-        display: table-header-group;
-    }
+  thead {
+    display: table-header-group;
+  }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
 
-    img {
-        max-width: 100% !important;
-    }
+  img {
+    max-width: 100% !important;
+  }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 }
