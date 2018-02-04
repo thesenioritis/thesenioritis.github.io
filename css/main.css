@@ -318,7 +318,14 @@ hr#starter {
 }
 
 #header p.lead {
-  font-size: 12pt;
+  font-size: 14pt;
+  text-align: center;
+  color: #333;
+}
+
+#header .hosts {
+  color: #999;
+  font-family: 'Proxima Nova', sans-serif;
   text-align: center;
 }
 
@@ -635,6 +642,10 @@ lead {
     float:left;
     clear:left;
     margin-bottom: 15px;
+  }
+
+  #header p.lead {
+    font-size: 11pt;
   }
 
   #header {
