@@ -1,15 +1,31 @@
 {
-  "name": "Cayman",
+  "name": "Senioritis",
   "version": "1.0.0",
-  "homepage": "http://github.com/jasonlong/cayman-theme",
-  "author": "Jason Long",
-  "scss": "./scss/cayman.scss",
-  "devDependencies": {
-    "autoprefixer": "^6.6.0",
-    "grunt-browser-sync": "~2.1.1",
-    "grunt": "~1.0.1",
-    "grunt-postcss": "~0.8.0",
-    "grunt-sass": "~1.1.0",
-    "grunt-contrib-watch": "~1.0.0"
+  "description": "Senioritis.",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesenioritis/thesenioritis.github.io.git"
+  },
+  "keywords": [
+    "gautam",
+    "mittal",
+    "blog",
+    "website"
+  ],
+  "author": "Gautam Mittal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thesenioritis/thesenioritis.github.io/issues"
+  },
+  "homepage": "https://github.com/thesenioritis/thesenioritis.github.io#readme",
+  "dependencies": {
+    "highlight.js": "^9.9.0",
+    "marked": "^0.3.5",
+    "moment": "^2.13.0",
+    "rss": "^1.2.2"
   }
 }
