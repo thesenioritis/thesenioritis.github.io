@@ -31,80 +31,6 @@ body {
   font-family: "Proxima Nova"; font-weight: 400;
 }
 
-@font-face {
-  src: url('../fonts/Franklin Book/FRABK.TTF');
-  font-family: 'Franklin Book';
-  font-style: normal;
-}
-
-@font-face {
-  src: url('../fonts/Franklin Book/FRABKIT.TTF');
-  font-family: 'Franklin Book';
-  font-style: italic;
-}
-
-@font-face {
-  src: url('../fonts/San Francisco/SanFranciscoText-Thin.otf');
-  font-family: 'San Francisco';
-  font-weight:300;
-}
-
-@font-face {
-  src: url('../fonts/San Francisco/SanFranciscoText-Medium.otf');
-  font-family: 'San Francisco';
-  font-weight:bold;
-}
-
-@font-face {
-  font-family: "SFMoMA";
-  src: url('../fonts/MoMA/SFMOMAText-Regular.ttf') format("truetype"),
-       url('../fonts/MoMA/SFMOMAText-Regular.otf') format("otf");
-  font-weight: normal;
-  font-style:normal;
-}
-
-@font-face {
-  font-family: "SFMoMA";
-  src: url('../fonts/MoMA/SFMOMAText-Bold.ttf') format("truetype"),
-       url('../fonts/MoMA/SFMOMAText-Bold.otf') format("otf");
-  font-weight: bold;
-  font-style:normal;
-}
-
-@font-face {
-  font-family: "SFMoMA";
-  src: url('../fonts/MoMA/SFMOMAText-RegularItalic.ttf') format("truetype"),
-       url('../fonts/MoMA/SFMOMAText-RegularItalic.otf') format("otf");
-  font-weight:normal;
-  font-style:italic;
-}
-
-@font-face {
-  font-family: "SFMoMA";
-  src: url('../fonts/MoMA/SFMOMAText-BoldItalic.ttf') format("truetype"),
-       url('../fonts/MoMA/SFMOMAText-BoldItalic.otf') format("otf");
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Streetvertising";
-  src: url('../fonts/Streetvertising/streetvertising bold public.ttf');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "Streetvertising";
-  src: url('../fonts/Streetvertising/streetvertising medium public.ttf');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Streetvertising";
-  src: url('../fonts/Streetvertising/streetvertising light public.ttf');
-  font-weight: 300;
-}
-
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -152,7 +78,7 @@ textarea {
 
 
  footer {
-   font-family: "Adobe Caslon";
+   font-family: "Menlo";
    font-size: 14pt;
    padding-top: 20px;
    padding-bottom: 20px;
