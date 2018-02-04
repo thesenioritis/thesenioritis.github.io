@@ -101,4 +101,4 @@ let compile = (contentDir, outputDir, ignore) => {
 
 
 // Yesterday is history, tomorrow is a mystery, but today is a gift.
-compile(`content`, `thoughts`, `.ignore`);
+compile(`content`, `profiles`, `.ignore`);
