@@ -593,17 +593,21 @@ img.pictureOfMe {
   padding: 0;
 }
 
-img#rss {
+.social {
   border: none;
   background:none;
-  float:right;
   height: 20pt;
   -moz-opacity: 0.4;
   -webkit-opacity: 0.4;
   opacity: 0.4;
+  float:left;
 }
 
-img#rss:hover {
+#rss {
+  float:right;
+}
+
+.social:hover {
   -moz-opacity: 0.8;
   -webkit-opacity: 0.8;
   opacity: 0.8;

@@ -45,9 +45,9 @@ let compile = (contentDir, outputDir, ignore) => {
 
     // Setup RSS feed
     let feed = new rss({
-        title: `Gautam Mittal`,
-        site_url: `http://gmittal.github.io`,
-        feed_url: `http://gmittal.github.io/feed.xml`,
+        title: `Senioritis`,
+        site_url: `https://senioritis.us`,
+        feed_url: `https://senioritis.us/feed.xml`,
         language: `en`
     });
 

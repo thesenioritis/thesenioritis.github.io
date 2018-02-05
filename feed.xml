@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
    <channel>
-      <title><![CDATA[Gautam Mittal]]></title>
-      <description><![CDATA[Gautam Mittal]]></description>
-      <link>http://gmittal.github.io</link>
+      <title><![CDATA[Senioritis]]></title>
+      <description><![CDATA[Senioritis]]></description>
+      <link>https://senioritis.us</link>
       <generator>RSS for Node</generator>
-      <lastBuildDate>Mon, 05 Feb 2018 01:51:25 GMT</lastBuildDate>
-      <atom:link href="http://gmittal.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 05 Feb 2018 02:15:17 GMT</lastBuildDate>
+      <atom:link href="https://senioritis.us/feed.xml" rel="self" type="application/rss+xml"/>
       <language><![CDATA[en]]></language>
       <item>
          <title><![CDATA[First Blog Post]]></title>
