@@ -4,25 +4,13 @@
       <description><![CDATA[Senioritis]]></description>
       <link>https://senioritis.us</link>
       <generator>RSS for Node</generator>
-      <lastBuildDate>Mon, 05 Feb 2018 03:07:17 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 05 Feb 2018 03:16:28 GMT</lastBuildDate>
       <atom:link href="https://senioritis.us/feed.xml" rel="self" type="application/rss+xml"/>
       <language><![CDATA[en]]></language>
       <item>
-         <title><![CDATA[First Blog Post]]></title>
-         <description><![CDATA[Obligatory Hello, world! 
-
- <p><img src="/img/obiwan-hello.gif" alt="Greetings..."></p>
-<p><strong>Hello, World</strong>! I’m Gautam Mittal, a student at <a href="http://gunn.pausd.org">Henry M. Gunn High School</a> in Silicon Valley. I enjoy food, hacking, running, martial arts, and music of all genres.</p>
-<p>My main intent in starting this blog is to share my thoughts, ideas, and stories. After trying out other blogging platforms (with much frustration and inconsistency), such as <a href="http://medium.com">Medium</a> and <a href="http://wordpress.org">Wordpress</a>, I finally decided it was time to host my own blog. My primary goal is to create content that&#39;s interesting and to share my thoughts on the world around me. The life of a high school student is more eventful than you may think! I also want to write more and continue to develop and improve my style of writing.</p>
-<p>Here&#39;s some <code>LOLCODE</code> to say Hi.</p>
-<pre><code><span class="hljs-attribute">HAI</span>
-CAN HAS STDIO?
-VISIBLE <span class="hljs-string">"Hello there."</span>
-KTHXBYE
-</code></pre>]]></description>
+         <title><![CDATA[Eric Her and Madison Mosier]]></title>
          <link>http://gmittal.github.io/stories/hello-world</link>
          <guid isPermaLink="true">http://gmittal.github.io/stories/hello-world</guid>
-         <dc:creator><![CDATA[Gautam Mittal]]></dc:creator>
          <pubDate>Thu, 17 Oct 2013 07:00:00 GMT</pubDate>
       </item>
    </channel>

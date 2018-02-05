@@ -59,7 +59,7 @@ let compile = (contentDir, outputDir, ignore) => {
         if (_ignore.indexOf(post) == -1) {
           const listTemplate = `<div class="story">
               <a href="/${outputDir}/${extract(contentDir, post).slug}">${metadata.title}</a>
-              <span class="date">${extract(contentDir, post).timestamp}. ${metadata.summary}</span></div>`;
+              <span class="date">${extract(contentDir, post).timestamp}.</span></div>`;
           postListMarkup.unshift(listTemplate);
         }
 
@@ -69,8 +69,7 @@ let compile = (contentDir, outputDir, ignore) => {
             const postTemplate = fs.readFileSync(`${__dirname}/templates/post.html`, `utf-8`)
                                    .replace(/{POST-TITLE}/g, metadata.title)
                                    .replace(/{POST-DATE}/g, extract(contentDir, post).timestamp)
-                                   .replace(/{POST-AUTHOR}/g, metadata.author)
-                                   .replace(/{POST-READ-TIME}/g, Math.ceil(content.split(` `).length / 200))
+                                   .replace(/{POST-IMAGE}/g, metadata.image)
                                    .replace(/{POST-CONTENT}/g, content);
             // Write post to disk
             const targetDir = `${outputDir}/${extract(contentDir, post).slug}`;
@@ -81,10 +80,8 @@ let compile = (contentDir, outputDir, ignore) => {
             if (_ignore.indexOf(post) == -1) {
               feed.item({
                   title: metadata.title,
-                  description: `${metadata.summary} \n\n ${content}`,
                   url: `http://gmittal.github.io/${targetDir}`,
                   date: new Date(extract(contentDir, post).timestamp),
-                  author: metadata.author
               });
             }
         });
