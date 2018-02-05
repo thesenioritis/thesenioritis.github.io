@@ -81,6 +81,7 @@ let compile = (contentDir, outputDir, ignore) => {
               feed.item({
                   title: metadata.title,
                   url: `http://gmittal.github.io/${targetDir}`,
+                  description: content,
                   date: new Date(extract(contentDir, post).timestamp),
               });
             }
