@@ -296,10 +296,18 @@ hr#starter {
   font-weight: bold;
   color: black;
   font-size: 42pt;
-  text-transform: none;
   text-align: center;
   line-height: 40px;
   text-transform: lowercase;
+}
+
+#header h2 {
+  font-family: "Proxima Nova Soft";
+  color: black;
+  text-transform: lowercase;
+  border: 0;
+  font-size: 32pt;
+  line-height: 40px;
 }
 
 #header a {
@@ -477,7 +485,7 @@ input:focus {
 }
 
 #headline {
-  color: #333;
+  color: #111;
   font-size: 23pt;
   font-family: 'Proxima Nova';
   font-weight:700;
@@ -660,8 +668,13 @@ lead {
     margin-bottom: 15px;
   }
 
+  #header h2 {
+    text-align: center;
+  }
+
   #header p.lead {
     font-size: 11pt;
+    text-align:center!important;
   }
 
   #header {
