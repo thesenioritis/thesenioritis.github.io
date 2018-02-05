@@ -303,8 +303,7 @@ hr#starter {
 }
 
 #header a {
-  color: #0f73aa;
-  border-bottom: 1px dotted #0f73aa;
+  color: #999;
   -webkit-transition: all 0.1s linear;
   -moz-transition: all 0.1s linear;
   -o-transition: all 0.1s linear;
@@ -312,8 +311,7 @@ hr#starter {
 }
 
 #header a:hover {
-  color:#463c78;
-  border-bottom: 1px solid #463c78;
+  color: #c0392b;
   text-decoration: none;
 }
 
@@ -321,6 +319,20 @@ hr#starter {
   font-size: 14pt;
   text-align: center;
   color: #333;
+}
+
+#header .nav {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Proxima Nova';
+  font-weight: bold;
+}
+
+.nav a {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14pt;
 }
 
 #header .hosts {
