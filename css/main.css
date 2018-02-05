@@ -9,6 +9,7 @@ html {
 
 body {
   padding-bottom: 40px;
+  font-family: 'Proxima Nova';
 }
 
 /* Proxima Nova */
@@ -149,7 +150,7 @@ footer {
 }
 
 a {
-  color:black;
+  color:#c0392b;
   text-decoration: none;
 }
 
@@ -273,8 +274,7 @@ hr#starter {
   margin: 0;
   height: 20px;
   border: 0;
-  background-image: url('/img/binding_dark_@2X.png');
-  background-repeat: repeat;
+  background: white;
 }
 
 #header {
