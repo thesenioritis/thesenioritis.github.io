@@ -475,7 +475,6 @@ input:focus {
   font-size: 13pt;
   font-family: "Proxima Nova";
   font-weight: 100;
-  border-top: 1px solid rgba(33, 33, 33, 0.1);
   padding-top: 7px;
 }
 
@@ -590,10 +589,14 @@ Helper classes
 
 img {
   border: solid 1px rgba(0, 0, 0, 0.2);
-  padding: 3px;
+  padding: 2px;
   border-radius: 2px;
   background-clip: content-box; /* support: IE9+ */
   background-color: #ccc;
+}
+
+img.main {
+  margin-bottom: 20px;
 }
 
 img.pictureOfMe {
