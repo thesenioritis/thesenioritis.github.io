@@ -69,6 +69,7 @@ let compile = (contentDir, outputDir, ignore) => {
             const postTemplate = fs.readFileSync(`${__dirname}/templates/post.html`, `utf-8`)
                                    .replace(/{POST-TITLE}/g, metadata.title)
                                    .replace(/{POST-DATE}/g, extract(contentDir, post).timestamp)
+                                   .replace(/{POST-GUESTS}/g, metadata.guests)
                                    .replace(/{POST-IMAGE}/g, metadata.image)
                                    .replace(/{POST-CONTENT}/g, content);
             // Write post to disk
