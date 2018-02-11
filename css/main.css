@@ -354,7 +354,7 @@ hr#starter {
 #header #logo {
   background: none;
   border: 0;
-  height: 100px;
+  width: 150px;
 }
 
 p {
