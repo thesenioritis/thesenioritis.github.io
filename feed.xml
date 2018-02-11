@@ -4,16 +4,44 @@
       <description><![CDATA[Senioritis]]></description>
       <link>https://senioritis.us</link>
       <generator>RSS for Node</generator>
-      <lastBuildDate>Sun, 11 Feb 2018 22:10:42 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 11 Feb 2018 22:32:44 GMT</lastBuildDate>
       <atom:link href="https://senioritis.us/feed.xml" rel="self" type="application/rss+xml"/>
       <language><![CDATA[en]]></language>
       <item>
-         <title><![CDATA[Eric Her and Madison Mosier]]></title>
-         <description><![CDATA[<p>Stay tuned.</p>
+         <title><![CDATA[Second Semester Seniors]]></title>
+         <description><![CDATA[<p>&quot;I have grown into a much more outgoing person. Freshman year I was more closed off, and very worried about what other people would think of me, and if I did something embarrassing people would remember that forever. And now I don’t really care. So it means I can do a lot more funny shit.&quot;</p>
+<p><iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/395201214&amp;color=%23e44434&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+<br /></p>
 ]]></description>
-         <link>http://gmittal.github.io/stories/eric-her-madison-mosier</link>
-         <guid isPermaLink="true">http://gmittal.github.io/stories/eric-her-madison-mosier</guid>
-         <pubDate>Thu, 01 Feb 2018 08:00:00 GMT</pubDate>
+         <link>http://gmittal.github.io/stories/second-semester-seniors</link>
+         <guid isPermaLink="true">http://gmittal.github.io/stories/second-semester-seniors</guid>
+         <pubDate>Tue, 06 Feb 2018 08:00:00 GMT</pubDate>
+      </item>
+      <item>
+         <title><![CDATA[Musical Chairs]]></title>
+         <description><![CDATA[<p>&quot;I know sometimes, you know, you don&#39;t want to hang out with grandma, you&#39;d rather hang out with your friends. But recently, I&#39;ve been trying to hang out with my grandma as much as possible. And she&#39;s going through a lot, but she always has this attitude that the best thing that you can do is not complain that it&#39;s worse. The best thing you can do is not complain that it&#39;s worse. Did I say that right? I think I said that right. She&#39;s going through breast cancer right now, and she&#39;s like &#39;well at least its not terminal&#39;. But I&#39;m like, you&#39;re going through chemo and you&#39;re doing all this stuff, and she&#39;s like &#39;yeah well thank god it wasn&#39;t terminal.&#39;&quot;</p>
+<p><iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/396410337&amp;color=%23e44434&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+<br /></p>
+]]></description>
+         <link>http://gmittal.github.io/stories/musical-chairs</link>
+         <guid isPermaLink="true">http://gmittal.github.io/stories/musical-chairs</guid>
+         <pubDate>Thu, 08 Feb 2018 08:00:00 GMT</pubDate>
+      </item>
+      <item>
+         <title><![CDATA[Spiritual Journey]]></title>
+         <description><![CDATA[<p>&quot;My main passion these days is probably Calligraphy. I&#39;ve really just taken a liking to just shaping letters in a new way, and its just helped me through various problems in my life. Like it&#39;s helped me cope with, you know, PTSD, and other diseases that I&#39;ve developed.&quot;</p>
+]]></description>
+         <link>http://gmittal.github.io/stories/spiritual-journey</link>
+         <guid isPermaLink="true">http://gmittal.github.io/stories/spiritual-journey</guid>
+         <pubDate>Tue, 13 Feb 2018 08:00:00 GMT</pubDate>
+      </item>
+      <item>
+         <title><![CDATA[Korean Tumor]]></title>
+         <description><![CDATA[<p>&quot;I had no idea who you were, you stole my pen... you just kind of showed up in my life, I don&#39;t remember meeting you. It&#39;s kind of like you just permeated in my membrane, it was just like this little growth on the back of my neck or whatever... a benign, nice Korean tumor.&quot;</p>
+]]></description>
+         <link>http://gmittal.github.io/stories/korean-tumor</link>
+         <guid isPermaLink="true">http://gmittal.github.io/stories/korean-tumor</guid>
+         <pubDate>Thu, 15 Feb 2018 08:00:00 GMT</pubDate>
       </item>
    </channel>
 </rss>
