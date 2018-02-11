@@ -2,7 +2,7 @@
 {
   "title": "Second Semester Seniors",
   "guests": "Eric Her, Madison Mosier",
-  "image": "/img/eric-madison.jpg"
+  "image": "/img/profiles/eric-madison.jpg"
 }
 ---END_METADATA---
 "I have grown into a much more outgoing person. Freshman year I was more closed off, and very worried about what other people would think of me, and if I did something embarrassing people would remember that forever. And now I don’t really care. So it means I can do a lot more funny shit."
