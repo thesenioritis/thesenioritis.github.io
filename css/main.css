@@ -420,8 +420,30 @@ input:focus {
   outline-style:none;
 }
 
+.grid {
+  width: 100%;
+}
+
 .story {
-  margin-bottom: 15px;
+  width: 50%;
+  display: inline-block;
+}
+
+.story img {
+  border: 0;
+  margin-top: -7px;
+}
+
+.story img.alt {
+    display: none;
+}
+
+.story:hover img.reg {
+    display: none;
+}
+
+.story:hover img.alt {
+    display: block;
 }
 
 .story a {
@@ -721,6 +743,12 @@ lead {
 
   .wallet {
     font-size: 7pt;
+  }
+
+  .story {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
   }
 }
 

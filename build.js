@@ -58,8 +58,11 @@ let compile = (contentDir, outputDir, ignore) => {
         // Build list of posts displayed on the homepage
         if (_ignore.indexOf(post) == -1) {
           const listTemplate = `<div class="story">
-              <a href="/${outputDir}/${extract(contentDir, post).slug}">${metadata.title}</a>
-              <span class="date">${extract(contentDir, post).timestamp}.</span></div>`;
+              <a href="/${outputDir}/${extract(contentDir, post).slug}">
+              <img class="reg" src="${metadata.image}" />
+              <img class="alt" src="${metadata.altimage}" />
+              </a>
+              </div>`;
           postListMarkup.unshift(listTemplate);
         }
 
