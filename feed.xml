@@ -4,7 +4,7 @@
       <description><![CDATA[Senioritis]]></description>
       <link>https://senioritis.us</link>
       <generator>RSS for Node</generator>
-      <lastBuildDate>Tue, 13 Feb 2018 02:13:41 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 13 Feb 2018 06:45:30 GMT</lastBuildDate>
       <atom:link href="https://senioritis.us/feed.xml" rel="self" type="application/rss+xml"/>
       <language><![CDATA[en]]></language>
       <item>
@@ -26,6 +26,14 @@
          <link>http://gmittal.github.io/stories/musical-chairs</link>
          <guid isPermaLink="true">http://gmittal.github.io/stories/musical-chairs</guid>
          <pubDate>Thu, 08 Feb 2018 08:00:00 GMT</pubDate>
+      </item>
+      <item>
+         <title><![CDATA[Spiritual Journey]]></title>
+         <description><![CDATA[<p>&quot;My main passion these days is probably Calligraphy. I&#39;ve really just taken a liking to just shaping letters in a new way, and its just helped me through various problems in my life. Like it&#39;s helped me cope with, you know, PTSD, and other diseases that I&#39;ve developed.&quot;</p>
+]]></description>
+         <link>http://gmittal.github.io/stories/spiritual-journey</link>
+         <guid isPermaLink="true">http://gmittal.github.io/stories/spiritual-journey</guid>
+         <pubDate>Tue, 13 Feb 2018 08:00:00 GMT</pubDate>
       </item>
    </channel>
 </rss>
