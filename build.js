@@ -52,7 +52,9 @@ let compile = (contentDir, outputDir, ignore) => {
     });
 
     // Process each post
+    let episodeNumber = 0;
     ls(contentDir).forEach((post) => {
+        episodeNumber++;
         const metadata = extract(contentDir, post).metadata;
 
         // Build list of posts displayed on the homepage
@@ -72,6 +74,7 @@ let compile = (contentDir, outputDir, ignore) => {
             const postTemplate = fs.readFileSync(`${__dirname}/templates/post.html`, `utf-8`)
                                    .replace(/{POST-TITLE}/g, metadata.title)
                                    .replace(/{POST-DATE}/g, extract(contentDir, post).timestamp)
+                                   .replace(/{EPISODE-NUMBER}/g, episodeNumber)
                                    .replace(/{POST-GUESTS}/g, metadata.guests)
                                    .replace(/{POST-IMAGE}/g, metadata.image)
                                    .replace(/{POST-CONTENT}/g, content);
