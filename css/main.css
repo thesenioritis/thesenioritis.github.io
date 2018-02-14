@@ -293,6 +293,11 @@ hr#starter {
   text-transform: lowercase;
 }
 
+#header .daysLeft {;
+  text-align: center;
+  font-family: 'Proxima Nova';
+}
+
 #header h1 {
   font-family: "Proxima Nova Soft";
   font-weight: bold;
