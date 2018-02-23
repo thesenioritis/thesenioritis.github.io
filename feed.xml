@@ -4,7 +4,7 @@
       <description><![CDATA[Senioritis]]></description>
       <link>https://senioritis.us</link>
       <generator>RSS for Node</generator>
-      <lastBuildDate>Wed, 21 Feb 2018 01:57:30 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 23 Feb 2018 01:19:43 GMT</lastBuildDate>
       <atom:link href="https://senioritis.us/feed.xml" rel="self" type="application/rss+xml"/>
       <language><![CDATA[en]]></language>
       <item>
@@ -56,6 +56,16 @@
          <link>http://gmittal.github.io/stories/how-to-finesse-gunn-high-school</link>
          <guid isPermaLink="true">http://gmittal.github.io/stories/how-to-finesse-gunn-high-school</guid>
          <pubDate>Tue, 20 Feb 2018 08:00:00 GMT</pubDate>
+      </item>
+      <item>
+         <title><![CDATA[Titans of Tech]]></title>
+         <description><![CDATA[<p>  “Some of the earlier things that I’ve built, like when I was 11 I built this game called Math Ninja. And surprisingly enough, that thing got around 100,000 downloads, without any marketing. I was just like, &#39;how did that happen?&#39;”</p>
+<p>  <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/403805346&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  <br /></p>
+]]></description>
+         <link>http://gmittal.github.io/stories/titans-of-tech</link>
+         <guid isPermaLink="true">http://gmittal.github.io/stories/titans-of-tech</guid>
+         <pubDate>Thu, 22 Feb 2018 08:00:00 GMT</pubDate>
       </item>
    </channel>
 </rss>
