@@ -4,7 +4,7 @@
       <description><![CDATA[Senioritis]]></description>
       <link>https://senioritis.us</link>
       <generator>RSS for Node</generator>
-      <lastBuildDate>Fri, 23 Feb 2018 01:19:43 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 27 Feb 2018 19:39:03 GMT</lastBuildDate>
       <atom:link href="https://senioritis.us/feed.xml" rel="self" type="application/rss+xml"/>
       <language><![CDATA[en]]></language>
       <item>
@@ -66,6 +66,17 @@
          <link>http://gmittal.github.io/stories/titans-of-tech</link>
          <guid isPermaLink="true">http://gmittal.github.io/stories/titans-of-tech</guid>
          <pubDate>Thu, 22 Feb 2018 08:00:00 GMT</pubDate>
+      </item>
+      <item>
+         <title><![CDATA[The Yuba River Escape]]></title>
+         <description><![CDATA[<p>  &quot;He was like, &#39;I have this motorcycle and I practice on my motorcycle like these flips and jumps, like an escape route to get away if the cops ever come here.&#39;&quot;
+&quot;&#39;If I have to get away from the cops it better be really <strong>**</strong> cool.&#39;&quot;</p>
+<p>  <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/405809340&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  <br /></p>
+]]></description>
+         <link>http://gmittal.github.io/stories/the-yuba-river-escape</link>
+         <guid isPermaLink="true">http://gmittal.github.io/stories/the-yuba-river-escape</guid>
+         <pubDate>Tue, 27 Feb 2018 08:00:00 GMT</pubDate>
       </item>
    </channel>
 </rss>
