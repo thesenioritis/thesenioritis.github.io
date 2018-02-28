@@ -87,7 +87,7 @@ let compile = (contentDir, outputDir, ignore) => {
             if (_ignore.indexOf(post) == -1) {
               feed.item({
                   title: metadata.title,
-                  url: `http://gmittal.github.io/${targetDir}`,
+                  url: `https://senioritis.us/${targetDir}`,
                   description: content,
                   date: new Date(extract(contentDir, post).timestamp),
               });
