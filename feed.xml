@@ -4,7 +4,7 @@
       <description><![CDATA[Senioritis]]></description>
       <link>https://senioritis.us</link>
       <generator>RSS for Node</generator>
-      <lastBuildDate>Wed, 28 Feb 2018 00:17:12 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 07 Mar 2018 01:05:51 GMT</lastBuildDate>
       <atom:link href="https://senioritis.us/feed.xml" rel="self" type="application/rss+xml"/>
       <language><![CDATA[en]]></language>
       <item>
@@ -77,6 +77,17 @@
          <link>https://senioritis.us/stories/the-yuba-river-escape</link>
          <guid isPermaLink="true">https://senioritis.us/stories/the-yuba-river-escape</guid>
          <pubDate>Tue, 27 Feb 2018 08:00:00 GMT</pubDate>
+      </item>
+      <item>
+         <title><![CDATA[Orange Is The New Orange]]></title>
+         <description><![CDATA[<p>  &quot;There are a lot of things that I imagined for myself. Like as a freshman I was like, when I’m a senior I’m gonna be on one of those red squares. I’m gonna be lying down during G period in the sun. But now there are no red squares.”
+“You wish they were orange squares though, let’s be real.”</p>
+<p>  <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/409609233&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  <br /></p>
+]]></description>
+         <link>https://senioritis.us/stories/orange-is-the-new-orange</link>
+         <guid isPermaLink="true">https://senioritis.us/stories/orange-is-the-new-orange</guid>
+         <pubDate>Tue, 06 Mar 2018 08:00:00 GMT</pubDate>
       </item>
    </channel>
 </rss>
