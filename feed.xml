@@ -4,7 +4,7 @@
       <description><![CDATA[Senioritis]]></description>
       <link>https://senioritis.us</link>
       <generator>RSS for Node</generator>
-      <lastBuildDate>Wed, 07 Mar 2018 01:05:51 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 14 Mar 2018 03:02:29 GMT</lastBuildDate>
       <atom:link href="https://senioritis.us/feed.xml" rel="self" type="application/rss+xml"/>
       <language><![CDATA[en]]></language>
       <item>
@@ -88,6 +88,16 @@
          <link>https://senioritis.us/stories/orange-is-the-new-orange</link>
          <guid isPermaLink="true">https://senioritis.us/stories/orange-is-the-new-orange</guid>
          <pubDate>Tue, 06 Mar 2018 08:00:00 GMT</pubDate>
+      </item>
+      <item>
+         <title><![CDATA[Movie Moments]]></title>
+         <description><![CDATA[<p>  “You know those moments where you feel like you’re floating? Kind of like the sun is inside you.”</p>
+<p>  <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/413370705&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  <br /></p>
+]]></description>
+         <link>https://senioritis.us/stories/movie-moments</link>
+         <guid isPermaLink="true">https://senioritis.us/stories/movie-moments</guid>
+         <pubDate>Tue, 13 Mar 2018 07:00:00 GMT</pubDate>
       </item>
    </channel>
 </rss>
