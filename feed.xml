@@ -4,7 +4,7 @@
       <description><![CDATA[Senioritis]]></description>
       <link>https://senioritis.us</link>
       <generator>RSS for Node</generator>
-      <lastBuildDate>Wed, 25 Apr 2018 05:17:23 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 30 Apr 2018 01:40:30 GMT</lastBuildDate>
       <atom:link href="https://senioritis.us/feed.xml" rel="self" type="application/rss+xml"/>
       <language><![CDATA[en]]></language>
       <item>
@@ -108,6 +108,16 @@
          <link>https://senioritis.us/stories/good-cop-bad-cop</link>
          <guid isPermaLink="true">https://senioritis.us/stories/good-cop-bad-cop</guid>
          <pubDate>Tue, 24 Apr 2018 07:00:00 GMT</pubDate>
+      </item>
+      <item>
+         <title><![CDATA[Do You Wanna Be Friends?]]></title>
+         <description><![CDATA[<p>  &quot;Yesterday, Thomas asked me if I wanted to be friends during APES, and like this entire year I&#39;d already thought we&#39;d been friends.&quot;</p>
+<p>  <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/437083872&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  <br /></p>
+]]></description>
+         <link>https://senioritis.us/stories/do-you-wanna-be-friends</link>
+         <guid isPermaLink="true">https://senioritis.us/stories/do-you-wanna-be-friends</guid>
+         <pubDate>Sun, 29 Apr 2018 07:00:00 GMT</pubDate>
       </item>
    </channel>
 </rss>
