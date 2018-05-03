@@ -4,7 +4,7 @@
       <description><![CDATA[Senioritis]]></description>
       <link>https://senioritis.us</link>
       <generator>RSS for Node</generator>
-      <lastBuildDate>Mon, 30 Apr 2018 01:40:30 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 03 May 2018 16:24:07 GMT</lastBuildDate>
       <atom:link href="https://senioritis.us/feed.xml" rel="self" type="application/rss+xml"/>
       <language><![CDATA[en]]></language>
       <item>
@@ -118,6 +118,16 @@
          <link>https://senioritis.us/stories/do-you-wanna-be-friends</link>
          <guid isPermaLink="true">https://senioritis.us/stories/do-you-wanna-be-friends</guid>
          <pubDate>Sun, 29 Apr 2018 07:00:00 GMT</pubDate>
+      </item>
+      <item>
+         <title><![CDATA[The Creators]]></title>
+         <description><![CDATA[<p>  &quot;After winter break I came back, and I was in a really positive mindset. I just started talking to more people and realizing that everybody is really open. And if you just go with that assumption that everyone is going to be open and happy to talk to you, doors really open for you. I&#39;ve gone on so many little adventures with different people that I haven&#39;t talked to all of high school.&quot;</p>
+<p>  <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/438848799&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  <br /></p>
+]]></description>
+         <link>https://senioritis.us/stories/the-creators</link>
+         <guid isPermaLink="true">https://senioritis.us/stories/the-creators</guid>
+         <pubDate>Thu, 03 May 2018 07:00:00 GMT</pubDate>
       </item>
    </channel>
 </rss>
